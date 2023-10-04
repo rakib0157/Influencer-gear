@@ -1,0 +1,215 @@
+/*================== common css style code start  ===================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.mobile-menu{
+    display: none;
+}
+/*================== common css style code end  ===================*/
+/*================== Header Area start  ===================*/
+
+#header {
+    margin: 50px 100px;
+}
+.header-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-name{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+.header-nav-ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header-nav-ul > li > a{
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-nav-ul > li > a > img{
+    width: 24px;
+    margin-top: 8px;
+}
+/*================== Header Area end  ===================*/
+/*================== Banner section start  ===================*/
+#banner-section{
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-banner{
+    width: 582px;
+}
+.banner-heading{
+    font-size: 52px;
+    color: #3a3a3a;
+    font-weight: 700;
+    line-height: 70px;
+}
+.banner-para{
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+.banner-btn, .featured-btn{
+    padding: 10px 24px;
+    border-radius: 41px;
+    background-color: #e02c6d;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    margin-top: 26px;
+}
+.right-banner{
+    width: 475px;
+    height: 475px;
+    background-image: url(./logos/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.right-banner img{
+    width: 440px;
+    height: 414px;
+    margin-top: 30px;
+}
+/*================== Banner section end  ===================*/
+/*================== Brand section start  ===================*/
+#brand-section{
+    width: 1110px;
+    margin: 70px auto;
+}
+.brand-container{
+    display: flex;
+    padding: 35px 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+/*================== Brand section end  ===================*/
+/*================== card section start  ===================*/
+#card-section{
+    width: 1047px;
+    margin: 0 auto;
+
+}
+.card-heading{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3a3a3a;
+    text-align: center;
+    margin: 30px 0px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 24px;
+}
+.card{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.card img{
+    margin: 14px;
+}
+.card-details{
+    color: #3a3a3a;
+    margin: 14px;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.price{
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.card-p{
+    font-size: 14px;
+font-style: normal;
+font-weight: 700;
+}
+.seemore-btn-container{
+    margin-top: 40px;
+    text-align: right;
+}
+.morebtn{
+    color: #e02c6d;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+
+}
+/*================== card section end  ===================*/
+/*================== Featured section start  ===================*/
+#feature-section{
+    width: 1110px;
+    height: 270px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+.left-feature{
+    width: 404px;
+    height: 270px;
+}
+.left-feature img{
+    height: 100%;
+}
+.feature-heading{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0a0826;
+}
+.featured-btn{
+   border-radius: 0;
+}
+/*================== Featured section end  ===================*/
+#footer{
+    background-color: #0A0826;
+    color: #ffffff;
+    width: 100%;
+    height: 240px;
+}
+.footer-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-container p{
+    font-size: 14px;
+
+}
+.footer-heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-icons-container{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}

@@ -1,0 +1,168 @@
+@media screen and (max-width: 415px) {
+
+    /*================== common css style code start  ===================*/
+    .container {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .mobile-d-none {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        margin-top: 7px;
+    }
+
+    /*================== common css style code end  ===================*/
+    /*================== Header Area start  ===================*/
+
+    #header {
+        margin: 40px 10px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+    }
+
+    /*================== Header Area end  ===================*/
+    /*================== Banner section start  ===================*/
+    #banner-section {
+        margin: 40px 30px;
+        flex-direction: column-reverse;
+    }
+
+    .left-banner {
+        width: 100%;
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .banner-heading {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .banner-para {
+        font-size: 14px;
+    }
+
+    .right-banner {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-banner img {
+        width: 250px;
+        height: 218px;
+    }
+
+    /*================== Banner section end  ===================*/
+
+    /*================== Brand section start  ===================*/
+    #brand-section {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    #brand-section svg {
+        width: 100%;
+    }
+
+    .brand-container {
+        flex-wrap: wrap;
+        padding: 20px 10px;
+        gap: 18px;
+        justify-content: space-evenly;
+    }
+
+    /*================== Brand section end  ===================*/
+    /*================== card section start  ===================*/
+    #card-section {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .card-heading {
+        font-size: 20px;
+        margin: 30px 0px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .card {
+        width: 329px;
+        height: auto;
+    }
+
+    .seemore-btn-container {
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    /*================== card section end  ===================*/
+    /*================== Featured section start  ===================*/
+    #feature-section {
+        width: 100%;
+        height: auto;
+        margin: 50px auto;
+        flex-direction: column-reverse;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .left-feature {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    .left-feature img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-feature {
+        margin: 0px 20px;
+    }
+
+    .right-feature p {
+        color: #6C6C6C;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .feature-heading {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .featured-btn {
+        border-radius: 0;
+    }
+
+    /*================== Featured section end  ===================*/
+    /* #footer{
+    background-color: #0A0826;
+    color: #ffffff;
+    width: 100%;
+    height: 240px;
+} */
+    .footer-container {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+}
